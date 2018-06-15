@@ -99,3 +99,8 @@ So it looks like entity is used to map an object directly to a DB.
 
 
 What does the constructor do / how does it work?
+
+What's a CommandLineRunner, why do we need it?
+CommandLineRunner is a simple spring boot interface with a run method. The run method of all beans implementing the CommandLineRunner interface will be called automatically by the spring boot system after the initial boot. To see CommandLineRunner in action, just add the following class to your existing Spring Boot Application. When you run your application, you will see the run method output in the console.
+
+What's a BeerRepository, why do we need it?
