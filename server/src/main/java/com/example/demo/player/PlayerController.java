@@ -13,7 +13,7 @@ public class PlayerController {
         this.repository = repository;
     }
 
-    @GetMapping("/good-beers")
+    @GetMapping("/top-scorers")
     public Collection<Player> goodBeers() {
         return repository.findAll().stream().collect(Collectors.toList());
     }

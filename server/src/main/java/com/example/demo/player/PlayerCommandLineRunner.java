@@ -60,9 +60,6 @@ public class PlayerCommandLineRunner implements CommandLineRunner {
             System.out.println(player);
         }
 
-//        Stream.of(topScorers).forEach(name ->
-//                repository.save(new Beer(name))
-//        );
 
         int index_four = 0;
         for (String player : topScorers) {
